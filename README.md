@@ -1,6 +1,7 @@
 # Covid Data Processor
 
 Implementation of a program via DAO pattern in java with the capability of reading a CSV file (Covid dataset), saving values in objects and processing them to output results based on user arguments.
+Find project report [here](https://drive.google.com/file/d/11g_pO8jAKlMfL8W7byl-GIBVfo7C8aDR/view?usp=sharing)
 
 ## Getting Started
 
