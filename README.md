@@ -16,7 +16,7 @@ Submit as command line arguments:
 ```
 -stat [min, max] -by [NC, NCS, ND, NDS, NT, NDPC] -limit [1, 100] -display [Date, Country, Continent] -file [filePath]
 ```
-For testing this program the arguments were passed in:
+For testing this program the arguments were passed in: <br />
 ```IntelliJ->Edit Configurations->Program Arguments/CLI Arguments```
 
 ### Sample Output
