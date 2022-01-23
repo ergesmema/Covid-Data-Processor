@@ -55,7 +55,7 @@ public class MemUtils {
             try {
                 return Double.parseDouble(strNumber);
             } catch (Exception e) {
-                e.printStackTrace();   // or some value to mark this field is wrong. or make a function validates field first ...
+                e.printStackTrace();
             }
         }
         return null;
@@ -66,7 +66,7 @@ public class MemUtils {
             try {
                 return Long.parseLong(String.valueOf(Math.round(Double.parseDouble(strNumber))));
             } catch (Exception e) {
-                e.printStackTrace();   // or some value to mark this field is wrong. or make a function validates field first ...
+                e.printStackTrace();
             }
         }
         return null;

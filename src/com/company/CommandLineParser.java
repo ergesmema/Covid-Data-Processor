@@ -12,7 +12,6 @@ public class CommandLineParser {
         map();
     }
 
-    // Return argument value for particular argument name
     public String getArgumentValue(String argumentName)
     {
         if(map.containsKey(argumentName.toUpperCase(Locale.ROOT)))
@@ -21,7 +20,6 @@ public class CommandLineParser {
             throw new IllegalArgumentException("The argument list is not valid. '" +argumentName+ "' is missing. Please check and try again!");
     }
 
-    // Map the flags and argument names with the values
     public void map()
     {
         args.stream()
